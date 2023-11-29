@@ -422,7 +422,7 @@ nav .navbar-text ul li a:hover {
 }
 
 /* Box 1 */
-.sec3-box1{
+.sec3-box1 {
     width: 23%;
     padding: 24px 24px 32px;
     background-color: white;
@@ -433,13 +433,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec3-box1:hover{
+.sec3-box1:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec3-box1-img{
+.sec3-box1-img {
     width: 90%;
     height: auto;
 }
@@ -470,13 +471,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec3-box2:hover{
+.sec3-box2:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec3-box2-img{
+.sec3-box2-img {
     width: 90%;
     height: auto;
 }
@@ -507,13 +509,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec3-box3:hover{
+.sec3-box3:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec3-box3-img{
+.sec3-box3-img {
     width: 90%;
     height: auto;
 }
@@ -544,13 +547,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec3-box4:hover{
+.sec3-box4:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec3-box4-img{
+.sec3-box4-img {
     width: 90%;
     height: auto;
 }
@@ -604,7 +608,7 @@ nav .navbar-text ul li a:hover {
     color: #111111;
     font-weight: 600;
     font-size: 13px;
-}   
+}
 
 .sec4-line {
     width: 100%;
@@ -628,7 +632,7 @@ nav .navbar-text ul li a:hover {
 }
 
 /* Box 1 */
-.sec4-box1{
+.sec4-box1 {
     width: 23%;
     padding: 24px 24px 32px;
     background-color: white;
@@ -639,13 +643,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec4-box1:hover{
+.sec4-box1:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec4-box1-img{
+.sec4-box1-img {
     width: 90%;
     height: auto;
 }
@@ -676,13 +681,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec4-box2:hover{
+.sec4-box2:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec4-box2-img{
+.sec4-box2-img {
     width: 90%;
     height: auto;
 }
@@ -713,13 +719,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec4-box3:hover{
+.sec4-box3:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec4-box3-img{
+.sec4-box3-img {
     width: 90%;
     height: auto;
 }
@@ -750,13 +757,14 @@ nav .navbar-text ul li a:hover {
     flex-direction: column;
 }
 
-.sec4-box4:hover{
+.sec4-box4:hover {
     cursor: pointer;
     transform: scale(1.03);
-    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
 }
 
-.sec4-box4-img{
+.sec4-box4-img {
     width: 90%;
     height: auto;
 }
@@ -777,7 +785,7 @@ nav .navbar-text ul li a:hover {
 
 
 /* Section 5 */
-.section5{
+.section5 {
     width: 100%;
     height: 500px;
     background-image: url(https://assets.website-files.com/5badda2935e11303a89a461e/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg);
@@ -787,7 +795,7 @@ nav .navbar-text ul li a:hover {
     position: relative;
 }
 
-.sec5-in{
+.sec5-in {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -795,7 +803,7 @@ nav .navbar-text ul li a:hover {
     text-align: center;
 }
 
-.sec5-p1{
+.sec5-p1 {
     color: white;
     font-size: 13px;
     margin: 0px 0px 16px;
@@ -803,19 +811,19 @@ nav .navbar-text ul li a:hover {
     margin-top: 7rem;
 }
 
-.sec5-p2{
+.sec5-p2 {
     color: white;
     font-size: 36px;
     margin: 0px 0px 16px;
 }
 
-.sec5-p3{
+.sec5-p3 {
     color: white;
     font-size: 14px;
     margin: 0px 0px 28px;
 }
 
-.img-ghost{
+.img-ghost {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -823,11 +831,12 @@ nav .navbar-text ul li a:hover {
     z-index: 999;
     opacity: 0.7;
 }
-.sec5-play{
+
+.sec5-play {
     margin-top: 1rem;
 }
 
-.sec5-play .bi-play-fill{
+.sec5-play .bi-play-fill {
     font-size: 30px;
     color: white;
     padding: 10px 15px;
@@ -835,18 +844,80 @@ nav .navbar-text ul li a:hover {
     border-radius: 9999px;
 }
 
-.sec5-play:hover{
+.sec5-play:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: .3s;
 }
 
 
-
-
-
 /* Section 6 */
-.section6{
+.section6 {
     width: 100%;
-    height: 600px;
+    padding: 0px 24px 120px;
+}
+
+.sec6-p1{
+    font-size: 13px;
+    color: #A5C926;
+    margin: 0px 0px 16px;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.sec6-p2{
+    font-size: 32px;
+    color: #111111;
+    margin: 0px 0px 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.sec6-in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* For Text */
+.sec6-fortext-p1{
+    color: #111111;
+    font-size: 32px;
+    margin: 0px 0px 16px;
+}
+
+.sec6-fortext-p2{
+    color: #999999;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.sec6-btn{
+    color: white;
+    font-size: 14px;
+    background-color: #A5C926;
+    padding: 12px 28px;
+    border-radius: 24px;
+    font-weight: 600;
+    border: 1px solid #A5C926;
+    margin-top: 2rem;
+}
+
+.sec6-btn:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: .3s;
+}
+
+/* For Image */
+.sec6-forimg{
+    width: 50%;
+    height: 450px;
+}
+
+.sec6-forimg-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
 }
