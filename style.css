@@ -181,7 +181,7 @@ nav .navbar-text ul li a:hover {
 
 .sec1-p2 {
     color: #111111;
-    font-size: 32px;
+    font-size: 40px;
     margin: 0 0 0 20px;
     text-align: center;
 }
@@ -362,42 +362,491 @@ nav .navbar-text ul li a:hover {
 
 
 /* Section 3 */
-.section3{
+.section3 {
     width: 100%;
-    height: 600px;
-    /* background-color: #f8f8f8; */
-    background-color: red;
+    padding: 0px 24px 120px;
+    background-color: #f8f8f8;
 }
 
-.sec3-in{
+.sec3-in {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.sec3-p1{
+.sec3-p1 {
     color: #111111;
     font-size: 28px;
 }
 
-.sec3-p2-fordiv{
+.sec3-p2-fordiv {
     border-bottom: 2px solid #ddd;
 }
 
-.sec3-p2-fordiv:hover{
+.sec3-p2-fordiv:hover {
     cursor: pointer;
     border-bottom: 2px solid #A5C926;
     transition: .3s;
 }
 
-.sec3-p2{
+.sec3-p2 {
     display: inline;
     color: #111111;
     font-weight: 600;
     font-size: 13px;
 }
 
-.bi-arrow-right-short{
+.bi-arrow-right-short {
     font-weight: bolder;
 }
 
+.sec3-line {
+    width: 100%;
+    height: 1.5px;
+    background-color: #E5E5E5;
+    margin: 32px 0px 0px;
+}
+
+.sec3-line-color {
+    width: 10%;
+    height: 100%;
+    background-color: #A5C926;
+}
+
+/* Boxs */
+.sec3-boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* Box 1 */
+.sec3-box1{
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec3-box1:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec3-box1-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec3-box1-p1 {
+    margin-top: 2rem;
+}
+
+.sec3-box1-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+/* Box 2 */
+.sec3-box2 {
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec3-box2:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec3-box2-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec3-box2-p1 {
+    margin-top: 2rem;
+}
+
+.sec3-box2-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+/* Box 3 */
+.sec3-box3 {
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec3-box3:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec3-box3-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec3-box3-p1 {
+    margin-top: 2rem;
+}
+
+.sec3-box3-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+/* Box 4 */
+.sec3-box4 {
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec3-box4:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec3-box4-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec3-box4-p1 {
+    margin-top: 2.5rem;
+}
+
+.sec3-box4-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+
+
+/* Section 4 */
+.section4 {
+    width: 100%;
+    padding: 0px 24px 120px;
+    background-color: #f8f8f8;
+}
+
+.sec4-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec4-p1 {
+    color: #111111;
+    font-size: 28px;
+}
+
+.sec4-p2-fordiv {
+    border-bottom: 2px solid #ddd;
+}
+
+.sec4-p2-fordiv:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #A5C926;
+    transition: .3s;
+}
+
+.sec4-p2 {
+    display: inline;
+    color: #111111;
+    font-weight: 600;
+    font-size: 13px;
+}   
+
+.sec4-line {
+    width: 100%;
+    height: 2px;
+    background-color: #E5E5E5;
+    margin: 32px 0px 0px;
+}
+
+.sec4-line-color {
+    width: 10%;
+    height: 100%;
+    background-color: #A5C926;
+}
+
+/* Boxs */
+.sec4-boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* Box 1 */
+.sec4-box1{
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec4-box1:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec4-box1-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec4-box1-p1 {
+    margin-top: 2rem;
+}
+
+.sec4-box1-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+/* Box 2 */
+.sec4-box2 {
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec4-box2:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec4-box2-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec4-box2-p1 {
+    margin-top: 2rem;
+}
+
+.sec4-box2-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+/* Box 3 */
+.sec4-box3 {
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec4-box3:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec4-box3-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec4-box3-p1 {
+    margin-top: 2rem;
+}
+
+.sec4-box3-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+/* Box 4 */
+.sec4-box4 {
+    width: 23%;
+    padding: 24px 24px 32px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec4-box4:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.sec4-box4-img{
+    width: 90%;
+    height: auto;
+}
+
+.sec4-box4-p1 {
+    margin-top: 2.5rem;
+}
+
+.sec4-box4-p2 {
+    margin-top: 10px;
+    padding: 2px 12px;
+    background-color: #A5C926;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+}
+
+
+/* Section 5 */
+.section5{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://assets.website-files.com/5badda2935e11303a89a461e/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.sec5-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec5-p1{
+    color: white;
+    font-size: 13px;
+    margin: 0px 0px 16px;
+    font-weight: 600;
+    margin-top: 7rem;
+}
+
+.sec5-p2{
+    color: white;
+    font-size: 36px;
+    margin: 0px 0px 16px;
+}
+
+.sec5-p3{
+    color: white;
+    font-size: 14px;
+    margin: 0px 0px 28px;
+}
+
+.img-ghost{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 999;
+    opacity: 0.7;
+}
+.sec5-play{
+    margin-top: 1rem;
+}
+
+.sec5-play .bi-play-fill{
+    font-size: 30px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #A5C926;
+    border-radius: 9999px;
+}
+
+.sec5-play:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
+
+
+
+/* Section 6 */
+.section6{
+    width: 100%;
+    height: 600px;
+}
