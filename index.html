@@ -13,7 +13,7 @@
 
     <div class="header-navbar">
         <!-- Header -->
-        <header>
+        <header id="header">
             <div class="container">
                 <div class="header-in">
                     <div class="header-info">
@@ -32,24 +32,42 @@
         </header>
 
         <!-- Navbar -->
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div class="container">
-                <nav>
+                <nav id="nav">
                     <div class="navbar-text">
-                        <p class="navbar-logo-p1">ToyStore</p>
+                        <p class="navbar-logo-p1" id="navbarLogop1">ToyStore</p>
                         <ul>
-                            <li><a href="#">Catalog</a></li>
-                            <li><a href="#">Delivery</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#" id="navbarList1">Catalog</a></li>
+                            <li><a href="#" id="navbarList2">Delivery</a></li>
+                            <li><a href="#" id="navbarList3">About</a></li>
+                            <li><a href="#" id="navbarList4">Contacts</a></li>
                         </ul>
                     </div>
 
                     <!-- Navbar Cart -->
                     <div class="navbar-carts">
-                        <p class="navbar-carts-p1">Cart</p>
-                        <i class="bi bi-cart2"></i>
-                        <p class="navbar-carts-p2">0</p>
+                        <p class="navbar-carts-p1" id="cartText">Cart</p>
+                        <i class="bi bi-cart2" id="cart"></i>
+                        <p class="navbar-carts-p2" id="zero">0</p>
+
+
+                        <!-- Trigger/Open The Modal -->
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p style="font-weight: 400; font-size: 18px;">Your Cart</p>
+                                <br>
+                                <hr>
+                                <div class="null">
+                                    <p>No items found.</p>
+                                </div>
+                            </div>
+                        </div>
 
                         <!-- Navbar menu -->
                         <div class="navbar-menu" id="navbarMenu">
@@ -75,6 +93,8 @@
         </div>
     </div>
 
+
+
     <!-- Section 1 -->
     <section class="section1">
         <div class="container">
@@ -87,14 +107,14 @@
             </div>
 
             <!-- Mouse -->
-            <div class="mouse">
+            <div class="mouse" id="mouse">
                 <i class="bi bi-mouse"></i>
             </div>
         </div>
     </section>
 
     <!-- Section 2 -->
-    <section class="section2">
+    <section class="section2" id="section2">
         <div class="container">
             <div class="sec2-in">
 
