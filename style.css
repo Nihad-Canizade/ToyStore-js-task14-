@@ -12,6 +12,13 @@
     margin: auto;
 }
 
+/* Header + Navbar */
+.header-navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
 
 /* Header */
 header {
@@ -181,6 +188,7 @@ nav .navbar-text ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 8rem;
 }
 
 .sec1-box {
