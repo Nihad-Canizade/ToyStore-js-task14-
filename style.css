@@ -1220,3 +1220,170 @@ footer {
     text-decoration: none;
     font-size: 11px;
 }
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+
+    /* Header */
+    .header-info{
+        min-width: 300px;
+    }
+
+    /* Navbar */
+    .navbar-text ul {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: block;
+    }
+
+    /* Section 1 */
+    .section1 .sec1-box {
+        width: auto;
+    }
+
+    .section1 .sec1-p2 {
+        font-size: 32px;
+        min-width: 420px;
+    }
+
+    /* Section 2 */
+    .section2 .sec2-in {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .sec2-box1,
+    .sec2-box2 {
+        width: 100%;
+        min-width: 420px;
+        max-width: 500px;
+    }
+
+    /* Section 3 */
+    .section3 .sec3-boxs {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sec3-box1,
+    .sec3-box2,
+    .sec3-box3,
+    .sec3-box4 {
+        width: 100%;
+        min-width: 200px;
+        max-width: 300px;
+    }
+
+    /* Section 4 */
+    .section4 .sec4-boxs {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sec4-box1,
+    .sec4-box2,
+    .sec4-box3,
+    .sec4-box4 {
+        width: 100%;
+        min-width: 200px;
+        max-width: 300px;
+    }
+
+    /* Section 5 */
+    .section5 .sec5-in {
+        min-width: 420px;
+    }
+
+    /* Section 6 */
+    .sec6-p1,
+    .sec6-p2 {
+        min-width: 425px;
+    }
+
+    .sec6-in {
+        flex-direction: column-reverse;
+        gap: 30px;
+        position: relative;
+    }
+
+    .sec6-forimg-img {
+        width: 100%;
+        min-width: 320px;
+        height: auto;
+        max-height: 400px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .sec6-fortext {
+        text-align: center;
+    }
+
+    .sec6-fortext-p1,
+    .sec6-fortext-p2 {
+        min-width: 450px;
+    }
+
+    .sec6-form {
+        width: 100%;
+        min-width: 420px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sec6-form-inputs {
+        width: 100%;
+        min-width: 400px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sec6-form-inputs .sec6-input {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .sec6-form-inputs .sec6-form-btn {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    /* Section 7 */
+    .sec7-p1,
+    .sec7-p2 {
+        text-align: center;
+        min-width: 420px;
+    }
+
+    .sec7-boxs {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sec7-box1,
+    .sec7-box2,
+    .sec7-box3,
+    .sec7-box4,
+    .sec7-box5,
+    .sec7-box6 {
+        width: 100%;
+        min-width: 200px;
+        max-width: 300px;
+    }
+
+    /* Footer */
+    footer .footer-nav-ul{
+        display: none;
+    }
+
+    footer .footer-nomain{
+       display: none;
+    }
+
+}
