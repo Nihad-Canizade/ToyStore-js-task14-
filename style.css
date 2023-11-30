@@ -146,6 +146,26 @@ nav .navbar-text ul li a:hover {
     display: none;
 }
 
+/* Navbar Menu Click */
+.navbar-menu-click{
+    display: none;
+}
+
+.navbar-menu-click ul li {
+    list-style: none;
+    padding: 12px 18px;
+}
+
+.navbar-menu-click ul li a {
+    color: #111111;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar-menu-click ul li a:hover {
+    text-decoration: underline;
+}
+
 
 /* Section 1 */
 .section1 {
